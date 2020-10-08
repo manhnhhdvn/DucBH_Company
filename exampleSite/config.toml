@@ -20,80 +20,69 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.footer]]
-URL = "research"
-name = "research"
-weight = 1
-[[menu.footer]]
-URL = "scholarship"
-name = "scholarship"
-weight = 2
-[[menu.footer]]
-URL = "event"
-name = "event"
-weight = 3
+URL = "teacher"
+name = "teacher"
 [[menu.footer]]
 URL = "notice"
 name = "notice"
-weight = 4
 [[menu.footer]]
-URL = "teacher"
-name = "teacher"
-weight = 5
-[[menu.main]]
+URL = "event"
+name = "event"
+[[menu.footer]]
+URL = "scholarship"
+name = "scholarship"
+[[menu.footer]]
 URL = "research"
 name = "research"
-parent = "Các trang đang có"
+[[menu.main]]
+URL = "about"
+name = "About"
 weight = 1
+[[menu.main]]
+URL = "course"
+name = "course"
+weight = 2
+[[menu.main]]
+hasChildren = true
+name = "Pages"
+weight = 3
 [[menu.main]]
 URL = "teacher"
 name = "teacher"
-parent = "Các trang đang có"
-weight = 2
+parent = "Pages"
 [[menu.main]]
 URL = "notice"
 name = "notice"
-parent = "Các trang đang có"
-weight = 3
+parent = "Pages"
 [[menu.main]]
 URL = "event"
 name = "event"
-parent = "Các trang đang có"
-weight = 4
+parent = "Pages"
 [[menu.main]]
 URL = "scholarship"
 name = "scholarship"
-parent = "Các trang đang có"
-weight = 5
+parent = "Pages"
 [[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 5
+URL = "research"
+name = "research"
+parent = "Pages"
 [[menu.main]]
 URL = "blog"
 name = "blog"
 weight = 4
 [[menu.main]]
-hasChildren = true
-name = "Các trang đang có"
-weight = 3
-[[menu.main]]
-URL = "course"
-name = "Khóa học"
-weight = 2
-[[menu.main]]
-URL = "about"
-name = "Về chúng tôi"
-url = "https://www.facebook.com/buihuuduchd"
-weight = 1
+URL = "contact"
+name = "Contact"
+weight = 5
 [params]
-address = "9567 Turner Trace Apt. BC C3G8A4"
+address = "Gầm cầu"
 author = "Themefisher"
 contact_form_action = "#"
 description = "This is meta description"
-email = "info@educenter.com"
+email = "test@gmail.com"
 google_analitycs_id = ""
 logo = "images/logo.png"
-mobile = "+211234565523"
+mobile = "123456789"
 top_header = true
 [params.cookies]
 enable = true
